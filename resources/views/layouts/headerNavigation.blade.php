@@ -16,7 +16,7 @@
             <li class="active"><a href="/">Home</a></li>
              <?php if (empty(Auth::user()->name)): ?>
                  <?php else: ?>
-            <li><a href="http://ads/post/create">Create</a></li>
+           <li><a href="/post/create">Create</a></li>
              <?php endif; ?>
             
               <ul class="nav navbar-nav navbar-right">
